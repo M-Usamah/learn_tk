@@ -1,3 +1,8 @@
+'''
+first lesson
+create a window with a label
+'''
+
 from tkinter import *
 
 root = Tk()
