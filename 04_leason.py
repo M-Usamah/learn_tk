@@ -9,6 +9,7 @@ root = Tk()
 
 e = Entry(root)
 e.pack()
+e.insert(0, "Enter Your Name: ")
 
 def myClicl():
     myLabel = Label(root, text=e.get())
